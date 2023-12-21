@@ -29,7 +29,7 @@ def find_highest_bidder(bidding_record):
     if bid_amount > highest_bid:
       highest_bid = bid_amount
       winner = bidder
-  print(f"The winner is {bidder} with a bid of ${highest_bid}.")
+  print(f"The winner is {winner} with a bid of ${highest_bid}.")
 
 while not bidding_done:
   name = input("Enter your name : ")
